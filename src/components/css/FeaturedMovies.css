@@ -1,0 +1,54 @@
+.featured-movies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1308px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 604px; */
+    flex-shrink: 0;
+}
+
+.featured-movies-container {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.featured-movies_title {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.featured-movies_see_more {
+    color: var(--rose-700, #BE123C);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    display: flex;
+    align-items: center;
+}
+
+.featured-movies_see_more_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.featured-movies_heading {
+    display: flex;
+    width: 1244px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-movies-child {
+    width: 250px;
+}

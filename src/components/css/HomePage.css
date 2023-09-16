@@ -1,0 +1,11 @@
+.home-page {
+    /* width: 1440px;
+    height: 2845px; */
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    /* padding: 0 80px; */
+    /* align-content: space-between; */
+    justify-content: center;
+    gap: 80px;
+}

@@ -1,0 +1,134 @@
+/* .movie-card {
+  width: 250px;
+  height: 450px;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+  /* flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out; */
+/* } */
+
+.movie-card_overlay {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+
+.movie-card_title {
+  color: var(--gray-900, #111827);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 250px;
+  text-align: start;
+}
+
+.poster {
+  width: 250px;
+  height: 370px;
+}
+
+.poster-rating {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 114px;
+}
+
+.poster-rating-text {
+  display: flex;
+  padding: 3px 8px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+  background: rgba(243, 244, 246, 0.50);
+  backdrop-filter: blur(1px);
+}
+
+.poster-rating-text-text {
+  color: var(--gray-900, #111827);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.poster-rating-favorite {
+  width: 30px;
+  height: 29.211px;
+}
+
+.poster-rating-favorite-icon {
+  width: 20px;
+  height: 19.474px;
+  flex-shrink: 0;
+}
+
+.poster-rating-ellipse-icon {
+  width: 30px;
+  height: 29.211px;
+  flex-shrink: 0;
+  fill: rgba(243, 244, 246, 0.50);
+  backdrop-filter: blur(1px);
+}
+
+.movie-card_release_date {
+  color: var(--gray-400, #9CA3AF);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.movie-card_rating {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.movie-card_rating-imdb {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.movie-card_rating-imdb-logo {
+  width: 35px;
+  height: 17px;
+}
+
+.movie-card_rating-imdb-rating {
+  color: var(--gray-900, #111827);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+}
+
+.movie-card_rating-tomatoes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.movie-card_rating-tomatoes-logo {
+  width: 16px;
+  height: 17px;
+}
+
+.movie-card_rating-tomatoes-rating {
+  color: var(--gray-900, #111827);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+}

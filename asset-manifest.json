@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Innocent-Ogesiano/stage-2-task-frontend/static/css/main.dc01d833.css",
+    "main.js": "/Innocent-Ogesiano/stage-2-task-frontend/static/js/main.63f8d29d.js",
+    "static/js/787.c70b6414.chunk.js": "/Innocent-Ogesiano/stage-2-task-frontend/static/js/787.c70b6414.chunk.js",
+    "static/media/poster.png": "/Innocent-Ogesiano/stage-2-task-frontend/static/media/poster.b96c05c6dbf3fe519cfd.png",
+    "index.html": "/Innocent-Ogesiano/stage-2-task-frontend/index.html",
+    "static/media/search.svg": "/Innocent-Ogesiano/stage-2-task-frontend/static/media/search.f811fa2f52903f84c674.svg",
+    "main.dc01d833.css.map": "/Innocent-Ogesiano/stage-2-task-frontend/static/css/main.dc01d833.css.map",
+    "main.63f8d29d.js.map": "/Innocent-Ogesiano/stage-2-task-frontend/static/js/main.63f8d29d.js.map",
+    "787.c70b6414.chunk.js.map": "/Innocent-Ogesiano/stage-2-task-frontend/static/js/787.c70b6414.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc01d833.css",
+    "static/js/main.63f8d29d.js"
+  ]
+}

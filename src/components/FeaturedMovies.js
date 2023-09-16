@@ -12,7 +12,7 @@ function Featuredovies() {
     const fetchMovies = async () => {
       try {
         const response = await axios.get(
-          `${process.env.REACT_APP_MOVIE_BASE_URL}/discover/movie?api_key=${process.env.REACT_APP_API_KEY}&sort_by=popularity.desc`
+          `${process.env.REACT_APP_MOVIE_BASE_URL}/movie/top_rated?api_key=${process.env.REACT_APP_API_KEY}&sort_by=popularity.desc`
         );
         console.log(response.data.results);
         setMovies(response.data.results);
